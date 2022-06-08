@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bohdana Halenko</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
@@ -53,21 +54,43 @@
             </div>
             <div class="technology">
                 <p class="hero__title">I use these technologies:</p>
-                <img src="./image/html5.svg" alt="HTML5" width="54px">
-                <img src="./image/css.svg" alt="CSS3" width="54px">
-                <img src="./image/js.svg" alt="JavaScript" width="54px">
-                <img src="./image/sass.svg" alt="SASS" width="54px">
-                <img src="./image/react.svg" alt="React" width="54px">
-                <img src="./image/node.js.svg" alt="Node.js" width="54px">
-                <img src="./image/github.svg" alt="GitHub" width="54px">
+                <div class="technology__logo">
+                    <img src="./image/html5.svg" alt="HTML5" width="54px">
+                    <img src="./image/css.svg" alt="CSS3" width="54px">
+                    <img src="./image/sass.svg" alt="SASS" width="54px">
+                    <img src="./image/js.svg" alt="JavaScript" width="54px">
+                    <img src="./image/react.svg" alt="React" width="54px">
+                    <img src="./image/node.js.svg" alt="Node.js" width="54px">
+                    <img src="./image/mongoDB.svg" alt="MongoDB" width="100px">
+                    <img src="./image/github.svg" alt="GitHub" width="54px">
+                </div>
+                
             </div>
         </div>
         <div>
             <p>You can see my projects</p>
-            <button><a href="./projects.html">Projects</a></button>
+            <button class="btn"><a class="btn__text" href="./projects.html">Projects</a></button>
         </div>
         
 
+    </section>
+
+    <!--Waves Container-->
+    <section>
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28"
+                preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
     </section>
 
     <footer>Designed and built with lots of love.</footer>
