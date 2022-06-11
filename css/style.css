@@ -97,16 +97,43 @@ img {
 .contacts__item{
     margin: 0 8px;
 }
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.hero__image{
+    padding-right: 10%;
+    z-index: 2;
+}
+.hero__photo{
+    max-width: 400px;
+    border: #002e4d 20px solid;
+    border-radius: 50%;
+}
 
 .hero__title{
     color: #f2a278;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.375rem;
+    font-size: 40px;
     line-height: 44px;
     font-weight: 700;
 }
-.button{
+.hero__text{
+    font-size: 22px;
+}
+.star-one{
+    position: absolute;
+    top: 15%;
+    right: 56%;
+    z-index: 1;
+}
+.button__wrapper{
     position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 .button__box{
     width: 180px;
@@ -114,7 +141,7 @@ img {
     background-color: #f07b61;
     transition: all 200ms ease;
     border: none;
-    position: absolute;
+    /* position: absolute; */
 }
 .button__box:hover,
 .button__box:focus{
@@ -132,7 +159,7 @@ img {
     width: 180px;
     height: 56px;
     background-color: #002e4d;
-    position: absolute;
+    /* position: absolute; */
     top: 15px;
     left: -15px;
 
@@ -140,15 +167,27 @@ img {
 
 /* Technology */
 .technology{
-margin: 0 auto;
+padding-top: 50px;
+}
+.technology__title{
+    text-align: center;
+    color: #f2a278;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: 700;
 }
 .technology__logo{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px;
+    max-width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
 
+.projects__wrapper{
+    padding-top: 50px;
 }
 
 .footer{
