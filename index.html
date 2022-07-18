@@ -9,32 +9,32 @@
 </head>
 <body>
     <!--Header-->
-    <header class="header">
-        <div class="container container-header">
+    <header class="header container">
+        <div class="container-header">
             <a class="logo" href="./index.html">
-                <img src="./image/logo.svg" alt="" width="90px" height="90px">
+                <img class="logo__img" src="./image/logo.svg" alt="" width="90px" height="90px">
             </a>
             <nav class="navigation">
                 <ul class="site-nav">
-                    <li class="site-nav__item"><a href="./projects.html" class="site-nav__link">Projects</a></li>
-                    <li class="site-nav__item"><a href="./education.html" class="site-nav__link">Education</a></li>
-                    <li class="site-nav__item"><a href="./contacts.html" class="site-nav__link">Contacts</a></li>
+                    <li class="site-nav__item"><a href="#projects" class="site-nav__link">Projects</a></li>
+                    <li class="site-nav__item"><a href="#education" class="site-nav__link">Education</a></li>
+                    <li class="site-nav__item"><a href="#contacts" class="site-nav__link">Contacts</a></li>
                 </ul>
             </nav>
             <ul class="contacts">
                 <li class="contacts__item">
-                    <a href="mailto:info@devstudio.com" class="contacts__link">
-                        <img src="./image/email.svg" alt="" width="27px" height="27px">
+                    <a href="mailto:info@devstudio.com" class="contacts__link" target="_blank">
+                        <img class="contacts__img" src="./image/email.svg" alt="" width="27px" height="27px">
                     </a>
                 </li>
                 <li class="contacts__item">
-                    <a href="https://github.com/Bohdana-Halenko" class="contacts__link">
-                        <img src="./image/github-icon.svg" alt="" width="27px" height="27px">
+                    <a href="https://github.com/Bohdana-Halenko" class="contacts__link" target="_blank">
+                        <img class="contacts__img" src="./image/github-icon.svg" alt="" width="27px" height="27px">
                     </a>
                 </li>
                 <li class="contacts__item">
-                    <a href="https://www.linkedin.com/in/bohdanahalenko/" class="contacts__link">
-                        <img src="./image/linkedin.svg" alt="" width="27px" height="27px">
+                    <a href="https://www.linkedin.com/in/bohdanahalenko/" class="contacts__link" target="_blank">
+                        <img class="contacts__img" src="./image/linkedin.svg" alt="" width="27px" height="27px">
                     </a>
                 </li>
             </ul>
@@ -42,7 +42,7 @@
     </header>
 
     <!--Main-->
-    <main>
+    <main class="container">
         <section class="hero-container">
             <div class="hero__wrapper">
                 <div class="hero__image">
@@ -68,14 +68,104 @@
                     <img src="./image/github.svg" alt="GitHub" width="54px">
                 </div>
             </div>
-            <div class="projects__wrapper">
+            <!-- <div class="projects__wrapper">
                 <p class="technology__title">You can see my projects</p>
                 <div class="button__wrapper">
-                    <div class="button__shedow"></div>
-                    <button class="button__box"><a class="button__text" href="./projects.html">Projects</a></button>
-                </div>
-                <img src="./image/confetti-btn.svg" alt="">
-            </div>
+                    <a href="./projects.html">
+                        <button class="button__box"><span class="button__text">Projects</span></button>
+                    </a>
+                    <!-- <div class="button__shedow"></div> -->
+                <!-- </div> -->
+                <!-- <img src="./image/confetti-btn.svg" alt=""> -->
+            <!-- </div> -->
+        </section>
+
+        <!-- Projects-->
+
+        <section class="projects" id="projects">
+            <h2 class="projects__title">You can see my projects</h2>
+            <ul class="projects__list">
+                <li class="projects__item">
+                    <a href="https://bohdana-halenko.github.io/Filmoteka-team-project/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project1.png" alt="Filmoteka" width="300px">
+                        <p class="projects__text">Multi-page movie search site. Team project, I played the role of Team Lead.
+                            Used: HTML, CSS, JS,
+                            Parcel
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://danrafalsky.github.io/ice-cream-team-project/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project2.png" alt="Ice-cream project" width="300px">
+                        <p class="projects__text">A website with a responsive layout. Site for reviewing a web studio and
+                            ordering services. Used:
+                            HTML, CSS, JS, Parcel
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://oscuroplan.github.io/WV_spares/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project3.png" alt="WV-spares" width="300px">
+                        <p class="projects__text">Multi-page site for the sale of spare parts. Team project. Used: HTML, CSS,
+                            JS, Parcel
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://bohdana-halenko.github.io/goit-markup-hw-08/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project4.png" alt="WebStudio" width="300px">
+                        <p class="projects__text">A website with a responsive layout. Site for reviewing a web studio and
+                            ordering services. Used:
+                            HTML, CSS, JS, Parcel
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://bohdana-halenko.github.io/BarberShop/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project5.png" alt="BarberShop" width="300px">
+                        <p class="projects__text">A website with a responsive layout. Men's barbershop website. Used: HTML, CSS,
+                            JS, Parcel
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://phonebook-hb1.netlify.app/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project6.png" alt="Phonebook" width="300px">
+                        <p class="projects__text">Creating a REST API application to work with a collection of contacts with the
+                            ability to register.
+                            Used: HTML, CSS, JS, React, Redux
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://bohdana-halenko.github.io/goit-react-hw-04-images/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project7.png" alt="Search images" width="300px">
+                        <p class="projects__text">Search for images by title. Used: HTML, CSS, JS, React
+                        </p>
+                    </a>
+                </li>
+                <li class="projects__item">
+                    <a href="https://bohdana-halenko.github.io/Safari/" class="project__link" target="_blank">
+                        <img class="projects__img" src="./image/project8.png" alt="Safari" width="300px">
+                        <p class="projects__text">Тravel agency website. Used: HTML, CSS, JS
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!--Education-->
+        <section class="education" id="education">
+            <span>
+                I graduated from Chernihiv National Technological University with a master's degree in accounting in 2019. 
+                In 2021, I started studying at the "GoIT" school on the "Full Stack Developer" course. 
+            </span>
+        </section>
+
+
+        <!--Contacts-->
+        <section class="contacts" id="contacts">
+            <span>Current location: Chernihiv, Ukraine</span>
         </section>
     </main>
 
