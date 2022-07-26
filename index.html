@@ -50,7 +50,9 @@
                 </div>
                 <div class="hero__box">
                     <h1 class="hero__title">Hi, I'm Bohdana, a front-end developer!</h1>
-                    <p class="hero__text">I'm always open to learning about new opportunities. </p>
+                    <p class="hero__text">I am a Front-end Developer and master HTML5, CSS3, JavaScript, React, Node.js. I have
+                    experience with implementing both individual and team projects. I'm always open to learning about new opportunities. 
+                    It's important to me to grow as a Full-stack developer and put into practice my knowledge in all stack. </p>
                 </div>
             </div>
             <img src="./image/stars.svg" alt="" class="star-one" width="170px">
@@ -154,25 +156,78 @@
             </ul>
         </section>
 
-        <!--Education-->
-        <section class="education" id="education">
-            <span>
-                I graduated from Chernihiv National Technological University with a master's degree in accounting in 2019. 
-                In 2021, I started studying at the "GoIT" school on the "Full Stack Developer" course. 
-            </span>
-        </section>
+        <!--Education and Contacts-->
+        <section class="me">
+            <div class="education wrap-block" id="education">
+               <h3 class="education__title">Education</h3>
+               <div class="education__list">
+                <h4 class="education__name">IT school GoIT (online)</h4> 
+                <p>Full Stack Developer</p>
+                <p>June 2021 — July 2022</p>
+               </div>
+               <div class="education__list">
+                <h4 class="education__name">Chernihiv National Technological University</h4>
+                <p>Specialty of Accounting and Audit</p>
+                <p>Master’s Degree in Accounting, 2014-2019</p>
+               </div>             
+            </div>
 
-
-        <!--Contacts-->
-        <section class="contacts" id="contacts">
-            <span>Current location: Chernihiv, Ukraine</span>
+            <div>
+                <div class="contact wrap-block" id="contacts">
+                    <ul class="contact__block">
+                        <li class="contact__item">
+                            <a href="#" class="contact__link">
+                                <div class="contact__item-icon-wrapper">
+                                    <img class="contacts__img" src="./image/location.svg" alt="" width="27px" height="27px">
+                                </div>
+                                <span class="contact__text">Chernihiv, Ukraine</span>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="https://www.linkedin.com/in/bohdanahalenko/" class="contact__link" target="_blank">
+                                <div class="contact__item-icon-wrapper">
+                                    <img class="contacts__img" src="./image/linkedin.svg" alt="" width="27px" height="27px">
+                                </div>
+                                <span class="contact__text">Bohdana Halenko | LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="https://github.com/Bohdana-Halenko" class="contact__link" target="_blank">
+                                <div class="contact__item-icon-wrapper">
+                                    <img class="contacts__img" src="./image/github-icon.svg" alt="" width="27px" height="27px">
+                                </div>
+                                <span class="contact__text">GitHub</span>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="halenkobohdana@gmail.com" class="contact__link" target="_blank">
+                                <div class="contact__item-icon-wrapper">
+                                    <img class="contacts__img" src="./image/email.svg" alt="" width="27px" height="27px">
+                                </div>
+                                <span class="contact__text">halenkobohdana@gmail.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="languages wrap-block">
+                    <h3 class="education__title">Languages</h3>
+                    <ul class="languages__list">
+                        <li class="languages__item">English - Pre-Intermediate</li>
+                        <li class="languages__item">Ukrainian - Native</li>
+                        <li class="languages__item">Russian - Advanced</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <!--Footer-->
 
     <footer class="footer">
-        <p class="footer__text">Designed and built with love.</p>
+        <div class="footer__wrap">
+            <p class="footer__text">Designed and built with love</p>
+            <div class="heart"></div>
+        </div>
     </footer>
 </body>
 </html>
