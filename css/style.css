@@ -312,6 +312,10 @@ padding-top: 50px;
 .contact__text{
     margin-left: 15px;
 }
+.contact__text:hover,
+.contact__text:focus {
+    color: #f2a278;
+}
 .contact{
     max-height: 250px;
 }
